@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------
+Header styles minus menu
+--------------------------------------------------------------*/
+
+.masthead {
+    background: hsl(0, 0%, 90%);
+}
+
+.call-to-action {
+    justify-content: space-between;
+    align-items: right;
+}
+.site-branding button {
+    border-color: blue;
+}
+
+@media screen and (min-width: 50em) {
+    .masthead {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.site-title {
+    margin: 0;
+    padding:.2em .5em;
+    font-size: 2em;
+    font-weight: 300;
+    color: black;
+}
+
+.site-title a {
+    color: hsl(0, 0%, 20%);
+    text-decoration: none;
+}
+
+.site-title a:hover {
+    text-decoration: underline;
+}

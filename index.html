@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Re-cycle</title>
+    <meta name="description" content="Core starting template for responsive web design in the browser" />
+
+    <!-- Stylesheets, inlcuding custom fonts, go here -->
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+
+</head>
+
+<body>
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+    <header class="masthead" role="banner">
+        <div class="site-branding">
+            <h1 class="site-title"><a href="index.html">RE-CYCLE <small>Guided Cycling Tours</small></a></h1>   
+        </div><!-- .site-title -->
+        <div class="call-to-action">
+            <button>Hire a bike!</button>
+        </div>
+        
+        <nav id="site-navigation" class="main-navigation" role="navigation">
+            <!-- Mobile menu toggle button -->
+            <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Menu</button>
+            <!-- Main Menu -->
+            <div class="menu-main-menu-container">
+                <ul id="primary-menu" class="nav-menu">
+                    <li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+                    <li class="menu-item current-menu-item"><a href="about.html">About</a></li>
+                    <li class="menu-item current-menu-item"><a href="contact.html">Contact</a></li>
+                    <!--  <li class="menu-item menu-item-has-children"><a href="#">Item with sub-items</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="#">About</a></li>
+                        </ul>
+                    </li> -->
+                    <!-- <li class="menu-item"><a target="_blank" href="#">External Link</a></li> -->
+                </ul>
+            </div>
+        </nav>
+    </header><!-- .masthead -->
+
+    <div class="content">
+        <main class="main-area">
+            <article role="main">
+                <header>
+                    <p>Our mission is to inspire people to a more sustainable way of thinking about transport and
+                        consumer mentality.</p>
+                    <span>At Re-cycle you can explore Spains capital Madrid with our guided tours.</span>
+                </header>
+                <section id="content__why">
+                    <header>
+                        <h2>Bike trail feature 1</h2>
+                    </header>
+                    <figure>
+                            <img src="/images/carousel-bike.jpg" alt="photo of bike" srcset="">
+                            <caption>Pictures of bikes</caption>
+                    </figure>
+                </section>
+                <section id="content__what">
+                    <header>
+                        <h2>Bike trail feature 2</h2>
+                    </header>
+                    <figure>
+                            <img src="/images/carousel-bike.jpg" alt="photo of bike" srcset="">
+                            <caption>Pictures of bikes</caption>
+                    </figure>
+                </section>
+                <section id="content__how">
+                    <header>
+                        <h2>Bike trail feature 3</h2>
+                    </header>
+                    <figure>
+                            <img src="/images/carousel-bike.jpg" alt="photo of bike" srcset="">
+                            <caption>Pictures of bikes</caption>
+                    </figure>
+                </section>
+            </article>
+
+            <aside role="complementary">
+                <form method="post" action="search.html" role="search">
+                    <fieldset>
+                        <input type="search" title="Search this site">
+                        <button type="submit">Go</button> </fieldset>
+                </form>
+            </aside>
+
+        </main><!-- .main-area -->
+    </div><!-- .content -->
+
+    <footer class="footer-area" role="contentinfo">
+        <h3>Recycle</h3>
+        <p>Call us at <span class="phone">123-456-7891</span></p>
+        <p>All rights reserved &copy; 2018</p>
+        <p><a href="#">re-cycle.com</a></p>
+        <small>
+            <li><a href="#">Terms of use</a></li>
+            <li><a href="#">Privacy policy</a></li>
+        </small>
+    </footer>
+
+    <!-- Scripts for accessible mobile-first navigation -->
+    <script type="text/javascript" src="JS/libs/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="JS/navigation.js"></script>
+</body>
+
+</html>

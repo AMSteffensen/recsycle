@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <style>
+        :root {
+            --main-font: Helvetica, Arial, sans-serif;
+            --brand-color: #369;
+            --main-bg: #fff;
+            --main-color: #000;
+            --second-color: #333;
+        }
+        p {
+            font-family: var(--main-font);
+            color: var(--brand-color);
+        }
+
+        .panel {
+            font-size: 1rem;
+            padding: 1em;
+            border: 1px solid #999;
+            border-radius: 0.5em;
+            background-color: var(--main-bg);
+            color: var(--main-color);
+            
+        }
+
+        .panel > h2 {
+            margin-top: 0;
+            font-size: 0.8em;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .dark {
+            margin-top: 2em;
+            padding: 1em;
+            background-color: #999;
+            --main-bg: #333;
+            --main-color: #fff;
+        }
+
+        .light {
+            background-color: #369;
+            
+        }
+    </style>
+</head>
+<script type="text/javascript">
+    var rootElement = document.documentElement;
+    var styles = getComputedStyle(rootElement);
+    var mainColor = styles.getPropertyValue('--main-bg');
+    console.log(String(mainColor).trim());
+    rootElement.style.setProperty('--main-bg', '#cdf');
+  </script>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nisi voluptates dignissimos molestias labore! Consequuntur id doloremque iste quaerat illum vitae quae totam quibusdam est.</p>
+    <div class="panel">
+        <h2>Single-Origin</h2>
+        <div class="body">
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, veniam.
+
+        </div> 
+    </div>
+    <div class="light">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, perspiciatis.</p>
+    </div>
+    <aside class="dark">
+        <div class="panel">
+            <h2>Single-Origin</h2>
+            <div class="body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aliquid cum perspiciatis minus minima numquam!
+            </div>
+        </div>
+    </aside>
+</body>
+</html>

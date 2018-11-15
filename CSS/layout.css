@@ -1,0 +1,60 @@
+/*--------------------------------------------------------------
+Layouts
+--------------------------------------------------------------*/
+
+body {
+    background: hsl(0, 0%, 90%);
+
+}
+
+.content {
+    padding: 2em;
+}
+
+/* 430/16px (base font size) = 26.8rem */
+@media (min-width: 26.8rem) {
+    body {
+        font-size: 0.8rem;
+    }
+}
+
+/* 430/16px (base font size) = 26.8rem */
+@media (min-width: 26.8rem) {
+    body {
+        font-size: 0.8rem;
+        
+    }
+    
+}
+
+/* 768px/16px (base font size) = 48rem */
+@media (min-width: 48rem) {
+    body {
+        font-size: 1.8rem;
+    }
+    
+}
+
+/* 1024px/16px (base font size) = 64em */
+@media (min-width: 64em) {
+    body {
+        font-size: 1.8rem;
+    }
+}
+
+/* 1220px/16px (base font size) = 76.25em */
+@media (min-width: 76.25em) {
+    body {
+        font-size: 1.8rem;
+    }
+}
+
+/* 1400px/16px (base font size) = 87.5em */
+@media (min-width: 87.5em) {
+    body {
+        font-size: 1.8rem;
+    }
+}
+
+
+

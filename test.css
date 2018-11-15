@@ -1,0 +1,143 @@
+/* mobile first responsive typography */
+:root {
+    /* fluidly scale font size acording to viewport */
+    font-size: calc(1em + 1vw);
+}
+
+/* @media (min-width: 800px) {
+    :root {
+        font-size: 0.875em;
+    }
+}
+
+@media (min-width: 1200px) {
+    :root {
+        font-size: 1em;
+    }
+} */
+
+
+body {
+    font-family: sans-serif;
+    line-height: 1.2;
+}
+
+.about-us {
+    font-size: 2em;
+}
+
+h1 {
+    color: #2f4f4f;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.slogan {
+    font-size: 1.2rem;
+    padding: 1.2rem;
+    background-color: #ccc;
+}
+
+
+ul {
+    font-size: 1rem;
+  }
+  
+
+
+.nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    color: white;
+    background-color: #28e4e4;
+    padding: 5px 15px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.nav .featured {
+    background-color: orange;
+    box-shadow: 10px 2px #6f6f6f;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    color: red;
+}
+
+.footer {
+    color: #666;
+    background-color: #ccc;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: initial;
+    text-decoration: underline;
+}
+
+/* layout */
+
+.box {
+    padding: 1em;
+    border-radius: 1em;
+    background-color: lightgray;
+}
+
+.box-small {
+    font-size: 1rem;
+}
+
+.box-large {
+    font-size: 1rem;
+}
+
+.panel {
+    padding: 1rem;
+    border-radius: 1em;
+    border: 1px solid #999;
+    border-radius: 0.5em;
+}
+
+.panel > h2 {
+    margin-top: 0;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.panel.large {
+    font-size: 1.2rem;
+}
+
+.panel.small {
+    font-size: 0.8rem;
+}
+
+.square {
+    width: 100vw;
+    height: 50vh;
+    background-color: #13a4a4;
+}

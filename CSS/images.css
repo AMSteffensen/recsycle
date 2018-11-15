@@ -1,0 +1,35 @@
+/*--------------------------------------------------------------
+Images - reset 
+--------------------------------------------------------------*/
+
+img {
+    display: block;
+    width: 100%;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+@media (orientation:portrait) {
+    .figure {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
+@media (orientation:landscape) {
+    .figure {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    img {
+        flex: 2 0 360px;
+    }
+
+    figcaption {
+        flex: 1;
+    }
+}
